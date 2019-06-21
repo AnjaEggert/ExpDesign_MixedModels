@@ -35,7 +35,7 @@ basic.lm <- lm(testScore ~ bodyLength2, data = dragons)
 summary(basic.lm)
 
 ##---- plot the data with ggplot2 ----
-ggplot(dragons, aes(x = bodyLength, y = testScore)) +
+a <-ggplot(dragons, aes(x = bodyLength, y = testScore)) +
   geom_point()+
   geom_smooth(method = "lm")
 
