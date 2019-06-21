@@ -1,5 +1,5 @@
 #####################
-# repeated measures
+# spatial data
 #####################
 
 ##---- libraries ----
